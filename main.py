@@ -26,7 +26,7 @@ def choice():
     speed(10)
     pendown()
     if digits == 1:
-        return example_of_rec()
+        return square()
     elif digits == 2:
         return main_koch()
     elif digits == 3:
@@ -71,7 +71,7 @@ def ex(n, l):
     return ex(n - 1, int(0.9 * l))
 
 
-def example_of_rec():
+def square():
     n = int(input(ru_local.N))
     l = int(input(ru_local.SIZE))
     for i in range(4):
